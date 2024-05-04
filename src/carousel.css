@@ -1,0 +1,55 @@
+/* <section class="carousels">
+<div class="slider-warp">
+  <div class="slide"> */
+
+.carousels {
+    padding: 2rem;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow: hidden;
+    background-color: black;
+}
+
+.carousels::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-warp{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slide{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.slide img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1,25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(32, 67, 192);
+    top: 30px;
+}
