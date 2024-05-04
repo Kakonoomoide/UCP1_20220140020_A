@@ -50,6 +50,12 @@
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    background-color: rgb(32, 67, 192);
-    top: 30px;
+    background-color: #4CB9E7;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+    background-color: white;
 }

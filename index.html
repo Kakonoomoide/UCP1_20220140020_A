@@ -27,6 +27,8 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="./src/style.css" rel="stylesheet" />
     <link href="./src/carousel.css" rel="stylesheet" />
+    <link href="./src/card.css" rel="stylesheet" />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -58,13 +60,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#card">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./calender.html">Calender</a>
+              <a class="nav-link" href="./page-calender/calender.html"
+                >Calender</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#signup">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -118,7 +122,65 @@
       </div>
     </section>
     <!-- card secsion -->
+    <section class="card-dis" id="card">
+      <!--card1-->
+      <div class="house-info">
+        <div class="house-image">
+          <img src="./assets/card/guitar.png" alt="" />
+        </div>
 
+        <div class="house-price">
+          <span>
+            <i class="fa-regular fa-clock" style="margin-left: 20px"></i>
+            09:00
+          </span>
+        </div>
+
+        <ul class="house-meta">
+          Di pagi mentari, gitar berbisik rindu, Angin pun berdendang merindukan
+          dirimu. Pagi buta hampa tanpa senyumanmu, Kenangan diiringi alunan
+          gitar, pilu.
+        </ul>
+      </div>
+      <!--card1-->
+      <div class="house-info">
+        <div class="house-image">
+          <img src="./assets/card/play.png" alt="" />
+        </div>
+
+        <div class="house-price">
+          <span>
+            <i class="fa-regular fa-clock" style="margin-left: 20px"></i>
+            13:40</span
+          >
+        </div>
+
+        <ul class="house-meta">
+          Dengan kucing bermain, memori terlelap, Ingatan terbang, seakan waktu
+          tak berjalan. Dalam sentuhan lembut, hati terguncang, Bermain
+          dengannya, nostalgia memeluk hangat.
+        </ul>
+      </div>
+      <!--card1-->
+      <div class="house-info">
+        <div class="house-image">
+          <img src="./assets/card/learn.png" alt="" />
+        </div>
+
+        <div class="house-price">
+          <span>
+            <i class="fa-regular fa-clock" style="margin-left: 20px"></i>
+            19:20
+          </span>
+        </div>
+
+        <ul class="house-meta">
+          Di senja meredup, anuragamu menyapa, Sunyi memeluk kota, hening
+          mendekap malam. Hanya di sini, bersama kucing mungil mirip denganmu,
+          Pelajari dunia, sementara malam menjelang,
+        </ul>
+      </div>
+    </section>
     <!-- Signup-->
     <section class="signup-section" id="signup">
       <div class="container px-4 px-lg-5">
@@ -130,7 +192,7 @@
       </div>
     </section>
     <!-- Contact-->
-    <section class="contact-section bg-black">
+    <section class="contact-section bg-black" id="contact">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
           <div class="col-md-4 mb-3 mb-md-0">
@@ -167,7 +229,9 @@
           </div>
         </div>
         <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+          <a class="mx-2" href="https://github.com/Kakonoomoide"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
     </section>
